@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Prompt', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 110px;
+    left: 643px;
+    height: 550px;
+    width: 280px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(207, 232, 247, 0.49);
+}
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+}
+.myclass{
+    text-align: center;
+    margin:10px 0px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.myclass_1{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#p1,#p2,#p3,#p4{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.btn-1{
+    margin: 10px 20px;
+    padding: 5px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    font-family: 'Prompt', sans-serif;
+}
+.btn-2{
+    margin: 10px 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#para{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 15px 5px;
+    padding: 5px;
+    font-size: 18px;
+}
